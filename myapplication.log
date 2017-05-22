@@ -1,0 +1,12 @@
+2017-05-21 12:19:04.023  INFO 15192 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@409278b2: startup date [Sun May 21 11:49:17 CDT 2017]; root of context hierarchy
+2017-05-21 12:19:04.031  INFO 15192 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-21 12:19:04.032  INFO 15192 --- [Thread-3] o.a.camel.spring.SpringCamelContext      : Apache Camel 2.19.0 (CamelContext: camel-1) is shutting down
+2017-05-21 12:19:04.034  INFO 15192 --- [Thread-3] o.a.camel.impl.DefaultShutdownStrategy   : Starting to graceful shutdown 4 routes (timeout 300 seconds)
+2017-05-21 12:19:04.039  INFO 15192 --- [Camel (camel-1) thread #0 - ShutdownTask] o.a.camel.impl.DefaultShutdownStrategy   : Route: route3 shutdown complete, was consuming from: servlet:/sendmsg?httpMethodRestrict=POST
+2017-05-21 12:19:04.040  INFO 15192 --- [Camel (camel-1) thread #0 - ShutdownTask] o.a.camel.impl.DefaultShutdownStrategy   : Route: route2 shutdown complete, was consuming from: servlet:/spring?httpMethodRestrict=GET
+2017-05-21 12:19:04.040  INFO 15192 --- [Camel (camel-1) thread #0 - ShutdownTask] o.a.camel.impl.DefaultShutdownStrategy   : Route: route1 shutdown complete, was consuming from: servlet:/hello?httpMethodRestrict=GET
+2017-05-21 12:19:04.040  INFO 15192 --- [Camel (camel-1) thread #0 - ShutdownTask] o.a.camel.impl.DefaultShutdownStrategy   : Route: route4 shutdown complete, was consuming from: direct://hello
+2017-05-21 12:19:04.040  INFO 15192 --- [Thread-3] o.a.camel.impl.DefaultShutdownStrategy   : Graceful shutdown of 4 routes completed in 0 seconds
+2017-05-21 12:19:04.052  INFO 15192 --- [Thread-3] o.a.camel.spring.SpringCamelContext      : Apache Camel 2.19.0 (CamelContext: camel-1) uptime 29 minutes
+2017-05-21 12:19:04.053  INFO 15192 --- [Thread-3] o.a.camel.spring.SpringCamelContext      : Apache Camel 2.19.0 (CamelContext: camel-1) is shutdown in 0.020 seconds
+2017-05-21 12:19:04.114  INFO 15192 --- [localhost-startStop-2] o.a.c.c.s.CamelHttpTransportServlet      : Destroyed CamelHttpTransportServlet[CamelServlet]
